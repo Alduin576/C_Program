@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <math.h>
+#include <windows.h>
 
 int main(int argc, char const *argv[])
 {
   // extern int screen();
-  printf("ä½¿ç”¨ç­›é€‰æ³•æ±‚1~100ä¹‹å†…çš„ç´ æ•°");
-  screen();
+  int a;
+  printf("ÇëÊäÈëÕûÊı");
+  scanf("%d", &a);
+  printf("%d\n", a);
+  system("pause");
 }
 
 int screen()
@@ -23,7 +27,7 @@ int screen()
       if (a[i] != 0 && a[j] != 0)
       {
         if (a[j] % a[i] == 0)
-          a[j] = 0; // å°†éç´ æ•°æŒ–æ‰
+          a[j] = 0; // ½«·ÇËØÊıÍÚµô
       }
     }
   }
