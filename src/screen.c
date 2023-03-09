@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(int argc, char const *argv[])
-{
-  // extern int screen();
-  printf("使用筛选法求1~100之内的素数");
-  screen();
-}
-
 int screen()
 {
   int i, j, n, a[101];
